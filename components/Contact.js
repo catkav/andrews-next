@@ -1,11 +1,14 @@
 import React from 'react'
+import Link from 'next/link'
 
 class Contact extends React.Component {
     render() {
         return (
             <section>
                 <h2>Interested in joining or want to find out more?</h2>
-                <button>Contact us</button>
+                <Link href='/contact'>
+                    <button>Contact us</button>
+                </Link>
                 <p>Or drop by a training session, September - December or January - June</p>
                 <style jsx>{`
                 section {
@@ -33,6 +36,7 @@ class Contact extends React.Component {
                     border-radius: 4px;
                     font-size: 1.8em;
                     color: #ffffff;
+                    cursor: pointer;
                 }
                 `}</style>
             </section>

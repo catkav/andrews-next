@@ -1,10 +1,13 @@
 import React from 'react'
+import Link from 'next/link'
 
 class Header extends React.Component {
     render() {
         return (
             <div>
-                <img src='/ACSSiteIcon.svg' alt='St. Andrews logo' />
+                <Link href='/'>
+                    <img src='/ACSSiteIcon.svg' alt='St. Andrews logo' />
+                </Link>
                 <h1>Ashbourne St. Andrews A.C.</h1>
                 <style jsx>{`
                 div {

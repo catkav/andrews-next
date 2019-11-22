@@ -1,12 +1,11 @@
 import React from 'react'
-import Link from 'next/link'
 
 class Footer extends React.Component {
     render(){
         return (
         <div>
-            <h5>Made by Cat</h5>
-            <a href='https://www.facebook.com/St.AndrewsAthleticClub/'><img src='/official_facebook.png'/></a>
+            <h5><a href='http://www.catkav.com' target='_blank'>Made by Cat</a></h5>
+            <a href='https://www.facebook.com/St.AndrewsAthleticClub/' target='_blank'><img src='/official_facebook.png'/></a>
             <style jsx>
             {`
             background: #001F0E;
@@ -18,7 +17,7 @@ class Footer extends React.Component {
             div{
                 padding-left: 15px;
                 padding-right: 15px;
-                position: fixed;
+                position: absolute;
                 bottom: 0;
                 width: calc(100% - 30px);
             }
