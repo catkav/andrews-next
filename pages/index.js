@@ -18,7 +18,7 @@ const Home = () => (
     <Header />
     <div className='container'>
       <div className='hero-div'>
-        <img className='track' src='/andrews-track.jpg' alt='running track' />
+        <img className='track' src='/andrews-track.JPG' alt='running track' />
         <p className='blurb'>Ashbourne St. Andrews is an Athletics Club serving Ashbourne and surrounding areas. The club is based in Greenogue, less than a ten minute drive from Ashbourne. There is a six lane all weather floodlight track, facilities for track and field events and a clubhouse with changing facilities. Training days are Monday and Wednesday, for times see below. Ashbourne St. Andrews is an <a href='https://www.athleticsireland.ie/' target='_blank'>Athletics Ireland</a> registered club.</p>
       </div>
       <Timetable />
